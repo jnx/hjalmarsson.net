@@ -2,9 +2,13 @@
 
 <div class="frame" style="width:520px;height:394px;">
 	<div class="image" style="width:500px;height:374px;">
-		<img src="<%= @photo.url %>">
+		<%= image_tag @photo.photo.url %>
 	</div>
 </div>
+
+
+
+
 
 <%= link_to 'Editera', edit_photo_path(@photo) %> |
 <%= link_to 'Visa alla bilder', photos_path %>

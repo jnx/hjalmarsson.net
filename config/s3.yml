@@ -1,0 +1,14 @@
+development:
+  bucket: dev-hjalmarsson-net
+  access_key_id: AKIAIK6367SFEGCYEFNQ
+  secret_access_key: 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
+
+test:
+  bucket: myapptest
+  access_key_id: AKIAIK6367SFEGCYEFNQ
+  secret_access_key: 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
+
+production:
+  bucket: hjalmarsson-net
+  access_key_id: AKIAIK6367SFEGCYEFNQ
+  secret_access_key: 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
