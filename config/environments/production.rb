@@ -1,4 +1,6 @@
 HjalmarssonNet::Application.configure do
+  GoogleTagManager.gtm_id = "GTM-K3V7WG"
+
   # Settings specified here will take precedence over those in config/application.rb
 
   # The production environment is meant for finished, "live" apps.
